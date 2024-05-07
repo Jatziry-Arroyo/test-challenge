@@ -1,6 +1,6 @@
 // Imports small array of users
 // Pretend it's an API request
-const users = require("./data").default;
+const users = require("../data").default;
 
 // Fetches all users
 const getUsers = () => {
